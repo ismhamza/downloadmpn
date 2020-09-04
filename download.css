@@ -426,3 +426,42 @@ body {
     font-size: 12px;
   }
 }
+@media (max-device-height: 600px) {
+  #logo-box {
+    padding: 10px;
+  }
+  #logo-box img {
+    width: 35px;
+  }
+  #form-box .main-head {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .badge-box {
+    flex-direction: row;
+    margin-top: 10px;
+  }
+  .badge-box a {
+    margin: 5px;
+  }
+  .badge-box a.active img {
+    height: 30px;
+  }
+  .badge-box a img {
+    height: 25px;
+  }
+  .buttonCollapse {
+    padding: 10px 5px;
+    font-size: 12px;
+  }
+  .buttonCollapse span img {
+    width: 10px;
+  }
+  .footer p,
+  .footer a {
+    font-size: 10px;
+  }
+  .footer-btm-bar {
+    padding: 10px 0 5px;
+  }
+}
