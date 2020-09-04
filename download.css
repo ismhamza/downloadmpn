@@ -251,9 +251,14 @@ body {
     display: none;
   }
 }
-@media only screen and (max-device-width: 1185px) {
+@media only screen and (max-device-width: 1201px) {
   .mobile-right-sec {
     display: none !important;
+  }
+  #form-box .main-head {
+    font-size: 48px;
+    margin-left: 80px;
+    margin-right: 80px;
   }
   /* .app-collapse {
     display: none !important;
