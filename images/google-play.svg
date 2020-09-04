@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="272" height="110" viewBox="0 0 272 110">
+  <defs>
+    <filter id="Rectangle_1" x="0" y="0" width="272" height="110" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="button" transform="translate(13 13)" opacity="0.92">
+    <g transform="matrix(1, 0, 0, 1, -13, -13)" filter="url(#Rectangle_1)">
+      <rect id="Rectangle_1-2" data-name="Rectangle 1" width="242" height="80" rx="10" transform="translate(13 13)"/>
+    </g>
+    <g id="Group_14" data-name="Group 14" transform="translate(-174 -135)">
+      <text id="Get_it_on" data-name="Get it on" transform="translate(251 169)" fill="#fff" font-size="18" font-family="Lato-Heavy, Lato" font-weight="800"><tspan x="0" y="0">Get it on</tspan></text>
+      <text id="Google_play" data-name="Google play" transform="translate(251 195)" fill="#fff" font-size="22" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Google play</tspan></text>
+    </g>
+    <g id="icons8-android-os" transform="translate(13 18.001)">
+      <path id="Path_1" data-name="Path 1" d="M29.172,5.531a.9.9,0,0,1-.745-1.4L30.947.4A.9.9,0,0,1,32.438,1.4l-2.52,3.734A.9.9,0,0,1,29.172,5.531Zm-10.276,0a.9.9,0,0,1-.746-.4L15.631,1.4a.9.9,0,0,1,1.49-1l2.52,3.734A.9.9,0,0,1,19.4,5.378.889.889,0,0,1,18.9,5.531Z" transform="translate(-1.063 0)" fill="#fff"/>
+      <path id="Path_2" data-name="Path 2" d="M22.971,3c-6.042,0-11.225,3.813-12.415,8.986h24.83C34.2,6.813,29.013,3,22.971,3Zm-4.939,7.188a1.348,1.348,0,1,1,1.345-1.35A1.347,1.347,0,0,1,18.032,10.188Zm9.879,0a1.348,1.348,0,1,1,1.351-1.35A1.346,1.346,0,0,1,27.911,10.188ZM10.391,13.783V33.551a2.7,2.7,0,0,0,2.7,2.7H32.855a2.7,2.7,0,0,0,2.7-2.7V13.783Zm3.594,24.261v3.594a3.594,3.594,0,0,0,7.188,0V38.044Zm10.783,0v3.594a3.594,3.594,0,0,0,7.188,0V38.044ZM38.247,13.783a2.661,2.661,0,0,0-.9.165V31.589a2.671,2.671,0,0,0,3.594-2.531V16.478A2.7,2.7,0,0,0,38.247,13.783Zm-29.652.165a2.661,2.661,0,0,0-.9-.165,2.7,2.7,0,0,0-2.7,2.7v12.58a2.7,2.7,0,0,0,2.7,2.7,2.661,2.661,0,0,0,.9-.165Z" transform="translate(0 -0.304)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
